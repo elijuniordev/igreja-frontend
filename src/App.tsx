@@ -1,10 +1,12 @@
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./routes";
 
 
 function App() {
   return (
-    <div className="App">
-      <p>Site da Videira</p>
-    </div>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   );
 }
 
